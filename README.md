@@ -1,4 +1,4 @@
-Add the .env to /laravel and change this config:
+1. Cd `/laravel` folder and change the db connection in .env file:
 ```
 DB_CONNECTION=mysql
 DB_HOST=localhost or 127.0.0.1 or gdsmysql #docker
@@ -7,6 +7,10 @@ DB_DATABASE=laravel
 DB_USERNAME=root
 DB_PASSWORD=root
 ```
+
+2. At the `/laravel` folder run:
+- `php artisan migrate`
+  
 ---
 
 To start the project, let's run:
